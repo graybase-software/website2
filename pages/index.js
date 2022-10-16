@@ -91,10 +91,7 @@ export default function Graybase() {
                     What We Do
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
-                    built your pages.
+                    Our in-house development teams will custom design your experiments in affordable price because we defines and collaborate closely with your team from the beginning till the launch of the software.
                   </p>
                 </blockquote>
               </div>
