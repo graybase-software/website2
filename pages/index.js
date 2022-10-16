@@ -111,7 +111,7 @@ export default function Graybase() {
                         <i className="fas fa-sitemap"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        CSS Components
+                        Rapid application development 
                       </h6>
                       <p className="mb-4 text-blueGray-500">
                         Notus NextJS comes with a huge number of Fully Coded CSS
