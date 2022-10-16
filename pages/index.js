@@ -114,8 +114,7 @@ export default function Graybase() {
                         Rapid application development 
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Notus NextJS comes with a huge number of Fully Coded CSS
-                        components.
+                        Let us help you enhance your brainstorm, refine your idea quickly, and build working model to present the prototype.
                       </p>
                     </div>
                   </div>
@@ -134,12 +133,8 @@ export default function Graybase() {
                       </p>
                     </div>
                   </div>
-
-</div>
-
-
                 </div>
-
+                </div>
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
