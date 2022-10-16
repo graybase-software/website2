@@ -1,56 +1,47 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React from "react";
+import React, { useRef } from "react";
 import Link from "next/link";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Graybase() {
+
+  const whatRef = useRef();
+  const howRef = useRef();
+  const getRef = useRef();
+  const companyRef = useRef();
+  const contactRef = useRef();
+
+  function handleClick(location) {
+    location.current.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <>
-      <IndexNavbar fixed />
+      <IndexNavbar fixed handleClick={handleClick} whatRef={whatRef} howRef={howRef} getRef={getRef} companyRef={companyRef} contactRef={contactRef} />
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
-              <h2 className="font-semibold text-4xl text-blueGray-600">
-                Web Experiments Maker- customize behavioral test into realtime online
+              <h2 className="font-semibold text-4xl text-blueGray-600" >
+                Own Customized Web Experiment Applications for Your Unique Research with Affortable Price
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                graybase runs multiplayer research games online{" "}
+                Graybase specializes on multiplayer research games online
                 <a
-                  href="https://tailwindcss.com/?ref=creativetim"
                   className="text-blueGray-600"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   cloud based
                 </a>
                 . it captures maximum research data without missing any and expands your research another level. your creativity will be represented fully on your research with latest modern techs.
               </p>
-              <div className="mt-12">
-                {/* <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
-                  target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                >
-                  Get started
-                </a>
-                <a
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                  target="_blank"
-                >
-                  Github Star
-                </a> */}
-              </div>
             </div>
           </div>
         </div>
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
           src="/img/pattern_nextjs.png"
-          alt="..."
         />
       </section>
 
@@ -82,6 +73,7 @@ export default function Graybase() {
                   alt="..."
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
                   className="w-full align-middle rounded-t-lg"
+                  ref={whatRef}
                 />
                 <blockquote className="relative p-8 mb-4">
                   <svg
@@ -96,7 +88,7 @@ export default function Graybase() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    Great for your awesome project
+                    What We Do
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
                     Putting together a page has never been easier than matching
@@ -109,28 +101,35 @@ export default function Graybase() {
             </div>
 
             <div className="w-full md:w-6/12 px-4">
+
               <div className="flex flex-wrap">
+
                 <div className="w-full md:w-6/12 px-4">
+
+
+
                   <div className="relative flex flex-col mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-sitemap"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        statistical methods
+                        CSS Components
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        questions-based diagnostic tools
+                        Notus NextJS comes with a huge number of Fully Coded CSS
+                        components.
                       </p>
                     </div>
                   </div>
+
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        clinical and therapeutic path
+                        JavaScript Components
                       </h6>
                       <p className="mb-4 text-blueGray-500">
                         We also feature many dynamic components for React,
@@ -138,14 +137,19 @@ export default function Graybase() {
                       </p>
                     </div>
                   </div>
+
+</div>
+
+
                 </div>
+
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Personalized Test</h6>
+                      <h6 className="text-xl mb-1 font-semibold">Pages</h6>
                       <p className="mb-4 text-blueGray-500">
                         This extension also comes with 3 sample pages. They are
                         fully coded so you can start working instantly.
@@ -158,7 +162,7 @@ export default function Graybase() {
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        distributed database
+                        Documentation
                       </h6>
                       <p className="mb-4 text-blueGray-500">
                         Built by developers for developers. You will love how
@@ -167,19 +171,19 @@ export default function Graybase() {
                     </div>
                   </div>
                 </div>
-              </div>
+
             </div>
+
           </div>
         </div>
-
         <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-sitemap text-xl"></i>
               </div>
-              <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                CSS Components
+              <h3 className="text-3xl mb-2 font-semibold leading-normal" >
+                How We Do 
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                 Every element that you need in a product comes built in as a
@@ -238,6 +242,7 @@ export default function Graybase() {
                   alt="..."
                   src="/img/component-info-card.png"
                   className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
+                  ref={howRef}
                 />
                 <img
                   alt="..."
@@ -258,7 +263,7 @@ export default function Graybase() {
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center pt-32">
+          <div className="flex flex-wrap items-center pt-32" >
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
@@ -266,13 +271,14 @@ export default function Graybase() {
                     href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
-                    <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
+                    <div className="bg-red-600 shadow-lg rounded-lg text-center p-8" ref={getRef}>
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
                         src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
+                    
                       />
-                      <p className="text-lg text-white mt-4 font-semibold">
+                      <p className="text-lg text-white mt-4 font-semibold" >
                         Svelte
                       </p>
                     </div>
@@ -363,14 +369,14 @@ export default function Graybase() {
                 <i className="fas fa-drafting-compass text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Javascript Components
+                What You Get
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600" >
                 In order to create a great User Experience some components
                 require JavaScript. In this way you can manipulate the elements
                 on the page and give more options to your users.
               </p>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600" >
                 We created a set of Components that are dynamic and come to help
                 you.
               </p>
@@ -410,88 +416,11 @@ export default function Graybase() {
               </a>
             </div>
           </div>
+        <div ref={companyRef}>{""}</div>
         </div>
-
-        <div className="container mx-auto px-4 pb-32 pt-48">
-          <div className="items-center flex flex-wrap">
-            <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
-              <div className="md:pr-12">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                  <i className="fas fa-file-alt text-xl"></i>
-                </div>
-                <h3 className="text-3xl font-semibold">
-                  Complex Documentation
-                </h3>
-                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
-                  you're good to go.
-                </p>
-                <ul className="list-none mt-6">
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fas fa-fingerprint"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-blueGray-500">
-                          Built by Developers for Developers
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fab fa-html5"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-blueGray-500">
-                          Carefully crafted code for Components
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="far fa-paper-plane"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-blueGray-500">
-                          Dynamic Javascript Components
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
-              <img
-                alt="..."
-                className="max-w-full rounded-lg shadow-xl"
-                style={{
-                  transform:
-                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
-                }}
-                src="/img/documentation.png"
-              />
-            </div>
-          </div>
-        </div>
-
         <div className="justify-center text-center flex flex-wrap mt-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
-            <h2 className="font-semibold text-4xl">Why Graybase?</h2>
+            <h2 className="font-semibold text-4xl" >Why Graybase?</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
               Graybase is a completly new approach built on cloud using our past
               experience in academic researhe field. 
@@ -499,7 +428,6 @@ export default function Graybase() {
           </div>
         </div>
       </section>
-
       <section className="block relative z-1 bg-blueGray-600">
         <div className="container mx-auto">
           <div className="justify-center flex flex-wrap">
@@ -627,7 +555,7 @@ export default function Graybase() {
                   😍
                 </span>
               </p>
-              <h3 className="font-semibold text-3xl">
+              <h3 className="font-semibold text-3xl" ref={contactRef}>
                 Get started with your
                 personalized demo
               </h3>
