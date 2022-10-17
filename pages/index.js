@@ -125,7 +125,7 @@ export default function Graybase() {
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        JavaScript Components
+                        Cloud-based development
                       </h6>
                       <p className="mb-4 text-blueGray-500">
                         We also feature many dynamic components for React,
@@ -141,10 +141,9 @@ export default function Graybase() {
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Pages</h6>
+                    <h6 className="text-xl mb-1 font-semibold">Technology consulting</h6>
                       <p className="mb-4 text-blueGray-500">
-                        This extension also comes with 3 sample pages. They are
-                        fully coded so you can start working instantly.
+                      We can recommend the best fitting technology depending on your project needs and chosen growth strategy.
                       </p>
                     </div>
                   </div>
