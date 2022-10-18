@@ -466,9 +466,31 @@ export default function Graybase() {
                 </span>
               </p>
               <h3 className="font-semibold text-3xl" ref={contactRef}>
-                Get started with contacting us
+                Get started with us
               </h3>
-      
+              <div className="content">
+                <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+                      <p><strong style={{fontSize: "1.25rem"}}>Leave us a message</strong></p>
+                      <form action="https://formspree.io/f/moqbnqoj" method="POST" style={{ width: "100%"}}>
+                        <div className="fields grid">
+                          <div className="field">
+                            <input type="text" name="name" id="name" placeholder="Your Name" />
+                          </div>
+                          <div className="field">
+                            <input type="email" name="email" id="email" placeholder="Your Email" />
+                          </div>
+                          <div className="field-double">
+                            <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                          </div>
+                        </div>
+                        <ul className="actions">
+                          <input type="hidden" name="_next" value="https://mysite.com/thanks.html" />
+                          <input type="submit" value="Send Message" className="button submit" />
+                        </ul>
+                        <input type="hidden" name="_next" value="https://mysite.com/thanks.html" />
+                      </form>
+                    </div>
+              </div>
 
 
               <div className="sm:block flex flex-col mt-10">
