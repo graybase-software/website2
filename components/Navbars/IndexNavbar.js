@@ -85,7 +85,7 @@ export default function Navbar(props) {
                   onClick={() => handleClick(getRef)}
                 >
                   {/* <i className="text-blueGray-400 fab fa-twitter text-lg leading-lg " /> */}
-                  <span className="lg inline-block ml-2">What You Get</span>
+                  <span className="lg inline-block ml-2">Technology</span>
                 </a>
               </li>
               <li className="flex items-center" style={{ cursor: "pointer" }}>

@@ -203,14 +203,6 @@ export default function Graybase() {
                   Performance Optimization
                 </span>
               </div>
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
-                target="_blank"
-                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
-              >
-                View All{" "}
-                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-              </a>
             </div>
 
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
@@ -255,8 +247,6 @@ export default function Graybase() {
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8" ref={getRef}>
                       <img
@@ -271,8 +261,6 @@ export default function Graybase() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
@@ -286,8 +274,6 @@ export default function Graybase() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
@@ -303,8 +289,6 @@ export default function Graybase() {
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
                       <img
@@ -318,8 +302,6 @@ export default function Graybase() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
@@ -333,8 +315,6 @@ export default function Graybase() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
@@ -356,7 +336,7 @@ export default function Graybase() {
                 <i className="fas fa-drafting-compass text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                What You Get
+                Technology
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600" >
                 In order to create a great User Experience some components
@@ -367,40 +347,6 @@ export default function Graybase() {
                 We created a set of Components that are dynamic and come to help
                 you.
               </p>
-              <div className="block pb-6">
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Alerts
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Dropdowns
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Menus
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Modals
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Navbars
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Popovers
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tabs
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tooltips
-                </span>
-              </div>
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
-                target="_blank"
-                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
-              >
-                View all{" "}
-                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-              </a>
             </div>
           </div>
         <div ref={companyRef}>{""}</div>
@@ -409,8 +355,8 @@ export default function Graybase() {
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl" >Why Graybase?</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              Graybase is a completly new approach built on cloud using our past
-              experience in academic researhe field. 
+
+              We love to build Web Experiment Applications because every experiment has a specific set of needs and requirements. We enjoy the process of solving  unique challenges each opportunity provides with specific challenges supporting you to excel in your field of study and research.
             </p>
           </div>
         </div>
@@ -424,7 +370,6 @@ export default function Graybase() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Login Page
                   </h5>
-                  <Link href="/auth/login">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -432,14 +377,12 @@ export default function Graybase() {
                         src="/img/login.jpg"
                       />
                     </div>
-                  </Link>
                 </div>
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Profile Page
                   </h5>
-                  <Link href="/profile">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -447,14 +390,12 @@ export default function Graybase() {
                         src="/img/profile.jpg"
                       />
                     </div>
-                  </Link>
                 </div>
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Landing Page
                   </h5>
-                  <Link href="/landing">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -462,7 +403,6 @@ export default function Graybase() {
                         src="/img/landing.jpg"
                       />
                     </div>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -481,29 +421,12 @@ export default function Graybase() {
                 Open Source
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400">
-                Since{" "}
-                <a
-                  href="https://tailwindcss.com/?ref=creative"
-                  className="text-blueGray-300"
-                  target="_blank"
-                >
-                  Tailwind CSS
-                </a>{" "}
-                is an open source project we wanted to continue this movement
-                too. You can give this version a try to feel the design and also
-                test the quality of the code!
+                Open source is software source code that is open to the public and the development community to use. 
+                We wanted to continue this movement.
               </p>
               <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400">
-                Get it free on Github and please help us spread the news with a
-                Star!
+                It can enhance development productivity through software component reuse and improve interoperability by avoiding proprietary architectures.
               </p>
-              <a
-                href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                target="_blank"
-                className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-              >
-                Github Star
-              </a>
             </div>
 
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
@@ -539,34 +462,17 @@ export default function Graybase() {
             <div className="w-full text-center lg:w-8/12">
               <p className="text-4xl text-center">
                 <span role="img" aria-label="love">
-                  😍
+                 
                 </span>
               </p>
               <h3 className="font-semibold text-3xl" ref={contactRef}>
-                Get started with your
-                personalized demo
+                Get started with contacting us
               </h3>
-              <p className="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-                Hit the buttons below to
-                navigate to get the Free version for your next project. Build a
-                new web app or give an old project a new look!
-              </p>
+      
+
+
               <div className="sm:block flex flex-col mt-10">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
-                  target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                >
-                  Get started
-                </a>
-                <a
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                  target="_blank"
-                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                >
-                  <i className="fab fa-github text-lg mr-1"></i>
-                  <span>Help With a Star</span>
-                </a>
+             
               </div>
               <div className="text-center mt-16"></div>
             </div>
