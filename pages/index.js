@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React, { useRef } from "react";
 import Link from "next/link";
-
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
@@ -25,16 +24,12 @@ export default function Graybase() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600" >
-                Own Customized Web Experiment Applications for Your Unique Research with Affortable Price
+                Customized Web Applications for Social Science
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Graybase specializes on multiplayer research games online
-                <a
-                  className="text-blueGray-600"
-                >
-                  cloud based
-                </a>
-                . it captures maximum research data without missing any and expands your research another level. your creativity will be represented fully on your research with latest modern techs.
+                Graybase Specializes on Cloud Based Multiplayer Realtime Behavioral Experiment Applications
+                <br /><br />
+                Build Your Research Projects With Latest Modern Technology.
               </p>
             </div>
           </div>
@@ -88,10 +83,10 @@ export default function Graybase() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    What We Do
+                    Custom Build
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Our in-house development teams will custom design your experiments in affordable price because we defines and collaborate closely with your team from the beginning till the launch of the software.
+                    Our development teams will custom design your experiments in affordable price. We collaborate closely with your team from the beginning till the launch of your software.
                   </p>
                 </blockquote>
               </div>
@@ -111,10 +106,10 @@ export default function Graybase() {
                         <i className="fas fa-sitemap"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Rapid application development 
+                        Rapid Prototype Development 
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Let us help you enhance your brainstorm, refine your idea quickly, and build working model to present the prototype.
+                        Let us help you brainstorm, refine ideas, and build quick working model.
                       </p>
                     </div>
                   </div>
@@ -125,10 +120,10 @@ export default function Graybase() {
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Cloud-based development
+                        Cloud-based Development
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Cloud platforms remove infrastructure distractions and enable greater efficiency within the development stack.
+                        Cloud platforms remove infrastructure distractions and enable greater efficiency.
                       </p>
                     </div>
                   </div>
@@ -140,9 +135,9 @@ export default function Graybase() {
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
-                    <h6 className="text-xl mb-1 font-semibold">Technology consulting</h6>
+                    <h6 className="text-xl mb-1 font-semibold">Technology Consulting</h6>
                       <p className="mb-4 text-blueGray-500">
-                      We can recommend the best fitting technology depending on your project needs and chosen growth strategy.
+                      We can recommend the best technology options on your project needs and solve challenges along the way.
                       </p>
                     </div>
                   </div>
@@ -152,10 +147,10 @@ export default function Graybase() {
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                      Analytics technologies 
+                      Data Analytics  
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                      Helping software applications, and their users, make sense of a deluge of data through dashboards, visualizations and predictive capabilities.
+                      Collect as much data on your projects through various analytical technology provided with visualizations.
                       </p>
                     </div>
                   </div>
@@ -172,10 +167,10 @@ export default function Graybase() {
                 <i className="fas fa-sitemap text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal" >
-                How we do 
+                Behavioural Experiment
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                We can recommend the best fitting technology depending on your project needs and chosen growth strategy.
+                With Latest Tech Stacks
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
@@ -188,13 +183,13 @@ export default function Graybase() {
                   Back-end Architecture
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Social Multi Player Game Development
+                  Real-Time Multi Player
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Bot Development with Chatting
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Cloud Comoputting Solution
+                  Cloud Computting Solution
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Data Feed Design
@@ -339,13 +334,11 @@ export default function Graybase() {
                 Technology
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600" >
-                In order to create a great User Experience some components
-                require JavaScript. In this way you can manipulate the elements
-                on the page and give more options to your users.
+                Performance Optimized with Modern Technology for the User Experience of Your Research
               </p>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600" >
-                We created a set of Components that are dynamic and come to help
-                you.
+                We provide a set of special research components designed for behavioral science experiments with the latest technology
+            
               </p>
             </div>
           </div>
@@ -356,7 +349,7 @@ export default function Graybase() {
             <h2 className="font-semibold text-4xl" >Why Graybase?</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
 
-              We love to build Web Experiment Applications because every experiment has a specific set of needs and requirements. We enjoy the process of solving  unique challenges each opportunity provides with specific challenges supporting you to excel in your field of study and research.
+              We love to build the social science web experiment applications because every experiment has a specific set of needs to solve our modern societal issues. We enjoy doing our part supporting the field of social study and research for our mankind.
             </p>
           </div>
         </div>
@@ -368,7 +361,7 @@ export default function Graybase() {
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Login Page
+                    Web Experiment Log In
                   </h5>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
@@ -381,7 +374,7 @@ export default function Graybase() {
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Profile Page
+                    Personalized Interface
                   </h5>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
@@ -394,7 +387,7 @@ export default function Graybase() {
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Landing Page
+                    Custom Build for Specific Need
                   </h5>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
@@ -459,33 +452,33 @@ export default function Graybase() {
 
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
-            <div className="w-full text-center lg:w-8/12">
+            <div className="w-full text-center lg:w-8/12" style={{ background: "lightgray", padding: "2rem", margin: "0", borderRadius: "10px"}}>
               <p className="text-4xl text-center">
                 <span role="img" aria-label="love">
                  
                 </span>
               </p>
-              <h3 className="font-semibold text-3xl" ref={contactRef}>
+              <h3 className="font-semibold text-3xl" ref={contactRef} style={{ padding: "1rem"}}>
                 Get started with us
               </h3>
-              <div className="content">
-                <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-                      <p><strong style={{fontSize: "1.25rem"}}>Leave us a message</strong></p>
+              <div className="contactContainer">
+                <div className="" style={{ width: "100%"}}>
+                      <div style={{fontSize: "1.25rem", margin: "1rem"}} ><strong >Leave us a message</strong></div>
                       <form action="https://formspree.io/f/moqbnqoj" method="POST" style={{ width: "100%"}}>
-                        <div className="fields grid">
-                          <div className="field">
-                            <input type="text" name="name" id="name" placeholder="Your Name" />
+                        <div className="">
+                          <div style={{ width: "100%"}}>
+                            <input type="text" name="name" id="name" placeholder="Your Name" style={{ width: "50%", height: "50px", margin: "0.1rem",borderRadius: "4px", border: "1px solid gray"}}/>
                           </div>
                           <div className="field">
-                            <input type="email" name="email" id="email" placeholder="Your Email" />
+                        <input type="email" name="email" id="email" placeholder="Your Email" style={{ width: "50%", height: "50px", margin: "0.1rem",borderRadius: "4px", border: "1px solid gray" }} />
                           </div>
-                          <div className="field-double">
-                            <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                          <div className="">
+                        <textarea name="message" id="message" placeholder="Message" rows="7" style={{ width: "50%", margin: "0.1rem",borderRadius: "4px", border: "1px solid gray" }}></textarea>
                           </div>
                         </div>
                         <ul className="actions">
                           <input type="hidden" name="_next" value="https://mysite.com/thanks.html" />
-                          <input type="submit" value="Send Message" className="button submit" />
+                      <input type="submit" value="Send Message" className="button submit" style={{ width: "50%", margin: "0.1rem", borderRadius: "4px", height: "3.5rem", border: "1px solid gray", cursor: "pointer"}} />
                         </ul>
                         <input type="hidden" name="_next" value="https://mysite.com/thanks.html" />
                       </form>
@@ -501,7 +494,7 @@ export default function Graybase() {
           </div>
         </div>
       </section>
-      <Footer />
+      <Footer handleClick={handleClick} whatRef={whatRef} howRef={howRef} getRef={getRef} companyRef={companyRef} contactRef={contactRef} />
     </>
   );
 }

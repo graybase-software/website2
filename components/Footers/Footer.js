@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Footer() {
+export default function Footer({handleClick, whatRef, howRef, getRef, companyRef, contactRef}) {
   return (
     <>
       <footer className="relative bg-blueGray-200 pt-8 pb-6">
@@ -28,7 +28,7 @@ export default function Footer() {
             <div className="w-full lg:w-6/12 px-4">
               <h4 className="text-3xl font-semibold">Get the latest news on Graybase</h4>
               <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-                Find us on any of these platforms, we respond 1-2 business days.
+                Find us on any of these platforms
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
                 <button
@@ -61,6 +61,8 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        onClick={() => handleClick(whatRef)}
+                        style={{ cursor: "pointer"}}
                       >
                         About Us
                       </a>
@@ -89,16 +91,13 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        style={{ cursor: "pointer" }}
+                        onClick={() => handleClick(contactRef)}
                       >
                         Contact Us
                       </a>
                     </li>
                     <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      >
-                        Contact Us
-                      </a>
                     </li>
                   </ul>
                 </div>
